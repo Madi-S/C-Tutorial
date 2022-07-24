@@ -20,7 +20,7 @@ int main()
 
     char name[20];
     printf("Enter your name: ");
-    fgets(name, 20, stdin);    // grab the whole line (variable, max_length, from_where)
+    fgets(name, 20, stdin); // grab the whole line (variable, max_length, from_where)
     printf("Your name is %s", name);
 
     return 0;
